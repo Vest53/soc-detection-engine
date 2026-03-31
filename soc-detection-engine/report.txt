@@ -1,0 +1,24 @@
+==== SOC REPORT ====
+
+Total Incidents: 4
+
+By Type:
+- Suspicious Login Activity: 1
+- SSH Brute Force: 1
+- Port Scan (Nmap): 1
+- Blacklisted IP: 1
+
+By Severity:
+- LOW: 1
+- HIGH: 2
+- MEDIUM: 1
+
+Top Attackers:
+- 192.168.1.10: 5 failed attempts
+- 192.168.1.20: 0 failed attempts
+- 123.123.123.123: 0 failed attempts
+
+Recommendations:
+- Block malicious IPs
+- Enable MFA for SSH
+- Monitor unusual traffic
